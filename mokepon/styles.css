@@ -1,6 +1,13 @@
 .titulo {
-    color: yellow;
+    color: hotpink;
     width: 340px;
     height: 50px;
-    background-color: blue;
+    background-color: teal;
+}
+
+#Seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
