@@ -1,13 +1,8 @@
-.titulo {
-    color: white;
-    width: 340px;
-    height: 50px;
-    background-color: green;
-    padding: 10px;
-    box-sizing: border-box;
-    margin: 10px;
-    border: 1px solid blue;
-    border-radius: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Righteous&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,800;1,100;1,200&display=swap');
+
+body{
+font-family: 'Fredoka One', cursive;
+background-color: #041562;
 }
 
 #Seleccionar-mascota{
@@ -15,30 +10,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: darkcyan;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    border-radius: 15px;
+}
+
+.titulo {
+    color: white;
+    font-size: 32px;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
-    border: 1px solid blue;
+    border: 1px solid yellow;
     border-radius: 15px;
-    width: 500px;
+}
+
+
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
 }
 
 .tarjeta-de-mokepon{
-    width: 100px;
+    width: 200px;
     height: 100px;
-    background: aquamarine;
+    background: #11468F;
     padding: 10px;
     box-sizing: border-box;
-    margin: 10px;
-    border: 1px solid blue;
-    border-radius: 15px;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
 }
 
 
 #boton-mascota{
-    background-color: yellow;
-    border: solid 2px blue;
+    background: #11468F;
+    color: white;
+    border: solid 2px yellow;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
